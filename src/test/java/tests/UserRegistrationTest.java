@@ -17,7 +17,7 @@ public class UserRegistrationTest extends TestBase {
 		homeObject = new HomePage(driver) ; 
 		homeObject.openRegistrationPage();
 		registerObject = new UserRegistrationPage(driver) ; 
-		registerObject.userregistration("Mostafa", "Hussien", "mostafa152@gmai.com", "12345678");
+		registerObject.userregistration("first", "Test", "Test1@gmai.com", "12345678");
 		Assert.assertTrue(registerObject.successMessage.getText().contains("Your registration completed"));
 		
 	}

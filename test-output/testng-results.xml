@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36137" started-at="2021-07-18T14:50:11Z" finished-at="2021-07-18T14:50:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36137" started-at="2021-07-18T14:50:11Z" finished-at="2021-07-18T14:50:47Z">
+      <class name="tests.UserRegistrationTestUsingDDTwithExcel">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:tests.UserRegistrationTestUsingDDTwithExcel@5c5a1b69]" name="startDriver" is-config="true" duration-ms="9047" started-at="2021-07-18T16:50:13Z" finished-at="2021-07-18T16:50:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="userCanRegisterSuccssfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.UserRegistrationTestUsingDDTwithExcel@5c5a1b69]" name="userCanRegisterSuccssfully" duration-ms="4856" started-at="2021-07-18T16:50:22Z" data-provider="ExcelData" finished-at="2021-07-18T16:50:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.2345678E7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterSuccssfully -->
+        <test-method status="PASS" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:tests.UserRegistrationTestUsingDDTwithExcel@5c5a1b69]" name="screenshotFailure" is-config="true" duration-ms="0" started-at="2021-07-18T16:50:27Z" finished-at="2021-07-18T16:50:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanRegisterSuccssfully status=SUCCESS method=UserRegistrationTestUsingDDTwithExcel.userCanRegisterSuccssfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.UserRegistrationTestUsingDDTwithExcel@5c5a1b69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.UserRegistrationTestUsingDDTwithExcel@5c5a1b69]" name="stopDriver" is-config="true" duration-ms="1292" started-at="2021-07-18T16:50:27Z" finished-at="2021-07-18T16:50:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:tests.UserRegistrationTestUsingDDTwithExcel@5c5a1b69]" name="startDriver" is-config="true" duration-ms="4678" started-at="2021-07-18T16:50:28Z" finished-at="2021-07-18T16:50:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="userCanRegisterSuccssfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.UserRegistrationTestUsingDDTwithExcel@5c5a1b69]" name="userCanRegisterSuccssfully" duration-ms="4019" started-at="2021-07-18T16:50:33Z" data-provider="ExcelData" finished-at="2021-07-18T16:50:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test2@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.2131415E7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterSuccssfully -->
+        <test-method status="PASS" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:tests.UserRegistrationTestUsingDDTwithExcel@5c5a1b69]" name="screenshotFailure" is-config="true" duration-ms="1" started-at="2021-07-18T16:50:37Z" finished-at="2021-07-18T16:50:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanRegisterSuccssfully status=SUCCESS method=UserRegistrationTestUsingDDTwithExcel.userCanRegisterSuccssfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.UserRegistrationTestUsingDDTwithExcel@5c5a1b69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.UserRegistrationTestUsingDDTwithExcel@5c5a1b69]" name="stopDriver" is-config="true" duration-ms="788" started-at="2021-07-18T16:50:37Z" finished-at="2021-07-18T16:50:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:tests.UserRegistrationTestUsingDDTwithExcel@5c5a1b69]" name="startDriver" is-config="true" duration-ms="4927" started-at="2021-07-18T16:50:37Z" finished-at="2021-07-18T16:50:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="userCanRegisterSuccssfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.UserRegistrationTestUsingDDTwithExcel@5c5a1b69]" name="userCanRegisterSuccssfully" duration-ms="4005" started-at="2021-07-18T16:50:42Z" data-provider="ExcelData" finished-at="2021-07-18T16:50:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test3@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.2345687E7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterSuccssfully -->
+        <test-method status="PASS" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:tests.UserRegistrationTestUsingDDTwithExcel@5c5a1b69]" name="screenshotFailure" is-config="true" duration-ms="0" started-at="2021-07-18T16:50:46Z" finished-at="2021-07-18T16:50:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanRegisterSuccssfully status=SUCCESS method=UserRegistrationTestUsingDDTwithExcel.userCanRegisterSuccssfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.UserRegistrationTestUsingDDTwithExcel@5c5a1b69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.UserRegistrationTestUsingDDTwithExcel@5c5a1b69]" name="stopDriver" is-config="true" duration-ms="789" started-at="2021-07-18T16:50:46Z" finished-at="2021-07-18T16:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.UserRegistrationTestUsingDDTwithExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
